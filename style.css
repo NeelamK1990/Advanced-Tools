@@ -12,10 +12,11 @@ h1,
 h2,
 h3 {
   text-align: center;
+  margin: 0;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
@@ -99,4 +100,22 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.text-center {
+  text-align: center !important;
+}
+@media (max-width: 700px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
+  a {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
 }

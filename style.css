@@ -104,7 +104,7 @@ p {
 .text-center {
   text-align: center !important;
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   h1,
   h2,
   h3 {

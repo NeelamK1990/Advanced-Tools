@@ -113,7 +113,9 @@ p {
   h3 {
     text-align: center;
   }
-
+  h1 {
+    font-size: 40px;
+  }
   a {
     display: block;
     margin: 0;
